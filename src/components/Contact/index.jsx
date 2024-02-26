@@ -1,9 +1,9 @@
 import { View, Text } from "react-native";
 
-export default function Home() {
+export default function Contact() {
   return (
     <View>
-      <Text>Home</Text>
+      <Text>Contato</Text>
     </View>
   );
 }
