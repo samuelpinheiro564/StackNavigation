@@ -3,7 +3,6 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack"; // 
 //o arquivo app.jsx vai se o ponto que liga e cria a navegação
 
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
 import { Home } from "./src/components/Home";
 import { Profile } from "./src/components/Profile";
 import { Contact } from "./src/components/Contact";
@@ -21,12 +20,3 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
