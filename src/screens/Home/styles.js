@@ -7,10 +7,17 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  navButton: {
+  navButtonR: {
     marginTop: 20,
     padding: 10,
-    backgroundColor: "lightgray",
+    backgroundColor: "red",
+    color: "black",
+    borderRadius: 5,
+  },
+  navButtonV: {
+    marginTop: 20,
+    padding: 10,
+    backgroundColor: "green",
     color: "black",
     borderRadius: 5,
   },
